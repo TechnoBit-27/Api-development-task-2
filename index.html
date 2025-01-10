@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Library Management System</h1>
+
+    
+    <section>
+        <h2>Add Book</h2>
+        <form id="addBookForm">
+            <input type="text" id="bookName" placeholder="Book Name" required>
+            <input type="text" id="authorName" placeholder="Author Name" required>
+            <input type="text" id="bookId" placeholder="Book ID" required>
+            <button type="submit">Add Book</button>
+        </form>
+    </section>
+
+    
+    <section>
+        <h2>Books</h2>
+        <ul id="bookList"></ul>
+    </section>
+
+    
+    <section>
+        <h2>Student Management System</h2>
+        <form id="enterStudentForm">
+            <input type="text" id="studentName" placeholder="Student Name" required>
+            <button type="submit">Add Student</button>
+        </form>
+    </section>
+
+</body>
+</html>
